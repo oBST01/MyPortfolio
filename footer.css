@@ -1,0 +1,30 @@
+footer{
+    border-top: 3px solid rgb(255, 255, 255);
+    box-shadow: 0 0 2em rgb(170, 0, 255);
+    padding-top: 2vh;
+}
+h1{
+    color: white;
+    font-family: Arima;
+}
+#dv{
+    padding-top: 40vh;
+    font-family: Poppins;
+    font-size: 3vh;
+}
+.aFooter{
+    font-family: Poppins;
+    color:rgb(255, 255, 255);
+}
+#divTitle{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+}
+#divContent{
+    display: flex;
+    justify-content: space-around;
+}
+.aFooter:hover{
+    background-color: rgba(153, 0, 255, 0.5);
+}
