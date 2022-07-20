@@ -1,0 +1,31 @@
+footer{
+    box-shadow: 0 0 2em #080820;
+    padding-top: 2vh;
+    text-align: center;
+}
+h1{
+    color: #A0A1C7;
+    font-family: Arima;
+}
+.dv{
+    font-family: Poppins;
+    font-size: 3.5vh;
+}
+.aFooter{
+    font-family: Poppins;
+    color:#A0A1C7;
+    font-size: 2vh;
+}
+#divTitle{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+    font-size: 2vh;
+}
+#divContent{
+    display: flex;
+    justify-content: space-around;
+}
+.aFooter:hover{
+    background-color: #5655a848;
+}
