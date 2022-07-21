@@ -2,8 +2,11 @@
     width: 100%;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.692);
+    align-items: center;
 }
 .logo{
+    margin-top: 1vh;
+    margin-bottom: -1vh;
     width: 10vh;
     height: 10vh;
 }
