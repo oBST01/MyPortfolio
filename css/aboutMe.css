@@ -1,0 +1,119 @@
+/* containers and boxes configs */
+
+#aboutMe{
+    
+    /* itens postion */
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    overflow-x: hidden;
+
+    /* container background */
+    background-image: url(../images/background/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+    background-size: cover;
+    box-shadow: 0 0 3em #490f72ab;
+}
+.intro{ 
+    /* box sizing and color */
+    color:#A0A1C7;
+    box-shadow: -3vh 3vh 1.2vh #ffffff96 ;
+    height: 60vh;
+    width: 90vh;
+    border-radius: 2vh;
+    background-color: #00000000;
+    
+    /* content postion */
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20vh;
+}
+#moreAbout{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10vh #480F72;
+}
+.moreAboutContainer{
+    /* box sizing and color */
+    border: 1vh solid #FFFF;
+    background-color: #490f721e;
+    border-radius: 5vh;
+    box-shadow: 0 0 2vh #ffffff inset;
+    overflow-x: hidden;
+    
+    /* content postion */
+    align-items: center;
+    margin: 10vh;
+    padding: 2vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+}
+.divGif{
+    /* box sizing and color */
+    margin: 10vh;
+    margin-left: 0vh;
+    border: 0.5vh solid #FFFF;
+    box-shadow: 0 0 2vh #ffffff;
+    border-radius: 1vh;
+}
+
+/* writens */ 
+
+.name{
+    font-family: Josefin Sans;
+    color:#cc84ff; 
+    font-size: 10vh;
+    text-shadow: 0 0 1.3vh #cc84ff;
+}
+.content{
+    padding: 0 0 2vh 5vh;
+    text-align: justify;
+}
+.introTitle{
+    font-family: Josefin Sans;
+    color:#ffffff; 
+    padding: 4vh 0 4vh 1vh;
+}
+.aboutP{
+    color:#FFFF;
+    font-family: Josefin Sans;
+    font-size: 3.2vh;
+    letter-spacing: 0.1vh;
+    margin: 0vh 3vh 0vh 3vh;
+    text-align: justify;
+    text-indent: 2vh;
+}
+.titleMoreAbout{
+    color:#cc84ff;
+    text-shadow: 0 0 4vh #cc84ff;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 5.5vh;
+}
+
+/* icons */
+
+.icons{
+    width: 8vh;
+    height: 8vh;
+    margin: 0 1vh 0 1vh;
+}
+#iconGit{
+    width: 6vh;
+    height: 6vh;
+}
+.divIcons{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+/* animations */
+
+.aIcons:hover{
+    transform: rotate(360deg);
+    transition: 1s all ease-in-out;
+}

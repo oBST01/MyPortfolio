@@ -1,0 +1,53 @@
+#skills{
+    background-color: #060521;
+    padding: 0vh 0 20vh 0;
+}
+.mainTitleSkills{
+    /* writens */ 
+    color: #cc84ff;
+    font-family: Poppins;
+    font-size: 10vh;
+    text-align: center;
+    text-shadow: 0 0 3vh #cc84ff;
+    
+    /* box sizing and color */
+    padding: 8vh 0 4vh 0;
+}
+.skillsTitle{
+    /* writens */ 
+    color:#cc84ff;
+    font-family: Poppins;
+    font-size: 6vh;
+    text-align: center;
+    letter-spacing: 0.1vh;
+    text-shadow: 0 0 3vh #480F72;
+    
+    /* box sizing and color */
+    margin-bottom: 2vh;
+}
+.skillsDescription{
+    /* writens */
+    color:white;
+    font-family: Josefin Sans;
+    font-size: 4vh;
+    letter-spacing: 0.1vh;
+}
+.boxSkills{
+    /* box sizing and color */
+    border: 1vh solid rgba(255, 255, 255, 0.822);
+    padding: 3vh;
+    width: 55vh;
+    height: 28vw;
+    border-bottom-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+    box-shadow: 0 0 3vh#cc84ff;
+    margin-top: 5vh;
+}
+
+.containerSkills{
+    /* box sizing and color */
+    display: flex;
+    padding: 0 5vh 0 5vh;
+    justify-content: space-around;
+    align-items: center;
+}
