@@ -63,7 +63,7 @@
 
 .name{
     font-family: Josefin Sans;
-    color:#cc84ff; 
+    color:#8949b8; 
     font-size: 10vh;
     text-shadow: 0 0 1.3vh #cc84ff;
 }
@@ -96,25 +96,25 @@
 
 /* icons */
 
-.icons{
-    width: 8vh;
-    height: 8vh;
-    margin: 0 1vh 0 1vh;
-}
-#iconGit{
-    width: 6vh;
-    height: 6vh;
-}
-.divIcons{
+.fa-4x{
     display: flex;
     justify-content: center;
+    
 
     align-items: center;
+}
+#icons{
+    margin: 0 1vw 0 1vw;
+    color: #8400ff;
 }
 
 /* animations */
 
-.aIcons:hover{
+.fa-brands:hover{
+    transform: rotate(360deg);
+    transition: 1s all ease-in-out;
+}
+.fa-solid:hover{
     transform: rotate(360deg);
     transition: 1s all ease-in-out;
 }
