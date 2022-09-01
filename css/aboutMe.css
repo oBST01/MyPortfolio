@@ -11,7 +11,7 @@
     overflow-x: hidden;
 
     /* container background */
-    background-image: url(../images/background/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+    background-image: url(../images/background/peak_background\ \(1\).jpg);
     background-size: cover;
     box-shadow: 0 0 3em #490f72ab;
 }
@@ -63,7 +63,7 @@
 
 .name{
     font-family: Josefin Sans;
-    color:#8949b8; 
+    color:#b25df0; 
     font-size: 10vh;
     text-shadow: 0 0 1.3vh #cc84ff;
 }
@@ -112,9 +112,9 @@
 
 .fa-brands:hover{
     transform: rotate(360deg);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
 }
 .fa-solid:hover{
     transform: rotate(360deg);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
 }
