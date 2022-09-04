@@ -5,16 +5,16 @@
     align-items: center;
 }
 .logo{
-    margin-top: 1vh;
-    margin-bottom: -1vh;
+    margin: 1vh 0 1vh 0;
     width: 10vh;
     height: 10vh;
+    object-fit: contain;
 }
 .aHeader{
     text-decoration: none;
     color:#ffffff;
     font-family: Poppins;
-    font-size: 3.2vh;
+    font-size: 3.5vh;
     text-shadow: 0 0 3vh #ffffff;
 }
 .ulHeader{ 
